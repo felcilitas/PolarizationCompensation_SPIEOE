@@ -71,7 +71,7 @@ for root_name, root_dir in root_dirs.items():
     ergebnisse[root_name] = (means, stds)
 
 
-# ── Residuenplot ───────────────────────────────────────────────────────
+# Residuenplot
 means_ref, stds_ref = ergebnisse['ref']
 
 colors   = {'Berek': 'tab:blue', 'Soleil-Babinet': 'tab:orange', 'Waveplates': '#2e7d32'}
